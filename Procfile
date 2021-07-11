@@ -1,0 +1,1 @@
+web: voila --port=$PORT --no-browser --enable_nbextensions=True covid_classifier_voila.ipynb
