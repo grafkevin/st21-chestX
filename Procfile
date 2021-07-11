@@ -1,1 +1,6 @@
-web: voila --port=$PORT --no-browser --enable_nbextensions=True covid_classifier_voila.ipynb
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.1+cpu
+torchvision==0.9.1+cpu
+fastai
+voila
+ipywidgets
